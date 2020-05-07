@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fbfbf3;
+    width: 1605px;
+}
+
+#header {
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    height: 40px;
+    width: 1605px;
+}
+
+.title {
+    float: left;
+    margin-left: 230px;
+    line-height: 40px
+}
+
+.header_right1 {
+    float: left;
+    margin-left: 820px;
+    line-height: 40px
+}
+
+.header_right2 {
+    float: left;
+    margin-left: 40px;
+    line-height: 40px
+}
+
+span {
+    color: white
+}
+
+a {
+    text-decoration: none
+}
+
+#comment {
+    background-color: white;
+    width: 800px;
+    height: auto;
+    margin: 0 auto
+}
+
+.daohang {
+    padding: 30px 20px;
+}
+
+.message {
+    width: 800px;
+    height: auto;
+    margin: 26px auto
+}
+
+.ion5 {
+    width: 800px;
+    height: 32px;
+    background-color: #F3EEDA;
+}
+
+.img1 {
+    margin-left: 360px
+}
+
+.xiabiao {
+    width: 800px;
+    height: 4px;
+    background-color: red
+}
+
+.pinlun {
+    width: 600px;
+    height: auto;
+    border: 1px black solid;
+    margin: 9px auto;
+    padding: 20px 10px;
+
+}
+
+.pname {
+    float: left
+}
+
+.pno {
+    margin-left: 550px;
+}
+
+.pc {
+    padding-top: 10px;
+}
+
+.p1 {
+    font-weight: bold
+}
+
+.p2 {
+    color: #48c3ff;
+}
+
+#foot {
+    width: 1605px;
+    height: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+.f1 {
+    line-height: 50px
+}

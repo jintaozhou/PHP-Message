@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fbfbf3;
+}
+
+#header {
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    height: 40px;
+    width: auto;
+}
+
+.title {
+    float: left;
+    margin-left: 230px;
+    line-height: 40px
+}
+
+.header_right1 {
+    float: left;
+    margin-left: 820px;
+    line-height: 40px
+}
+
+span {
+    color: white
+}
+
+a {
+    text-decoration: none
+}
+
+#comment {
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.daohang {
+    padding: 30px 20px;
+}
+
+.add {
+    margin-left: 70px
+}
+
+.add .sub {
+    width: 140px;
+    margin-top: 40px;
+    font-size: 18px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+#comment .add .item {
+    margin-top: 15px;
+    height: auto
+}
+
+#comment .add .item input {
+    border: 0;
+    border-bottom: 2px #48c3ff solid;
+    padding: 5px 10px;
+    width: 400px;
+    font-size: 18px;
+    height: auto
+}
+
+.sub {
+    width: 140px;
+    margin-top: 40px;
+    font-size: 18px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+#foot {
+    width: 1605px;
+    height: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    margin-top: 280px
+}
+
+.f1 {
+    line-height: 50px
+}

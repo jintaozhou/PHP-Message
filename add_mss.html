@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我要留言</title>
+    <link rel="stylesheet" type="text/css" href="static/css/add_mess.css">
+</head>
+<body>
+<div id="header">
+    <div class="title"><span>欢迎访问在线留言板!</span></div>
+    <div class="header_right1"><a href="index.php"><span>返回首页</span></a></div>
+</div>
+<div id="bg"><img src="static/image/topbg.jpg"></div>
+<div id="comment">
+    <div class="daohang">所在位置:<a href="http://59.110.157.156/">首页>></a><a href="http://localhost/liuyanban/">留言板>></a><a
+            href="#">我要留言</a></div>
+    <div class="add">
+        <form action="add.php" method="post">
+            <div class="item">
+                <img src="static/image/name.png"><input type="text" name="name" placeholder="名字">
+            </div>
+            <div class="item">
+                <img src="static/image/neirong.png"><input type="text" name="content" placeholder="内容">
+            </div>
+            <input type="submit" value="提交" class="sub"><input type="reset" value="重写" class="sub">
+        </form>
+    </div>
+</div>
+<div id="foot">
+    <span class="f1"> © 2020 ZJT &nbsp; | &nbsp;Power by ZJT &nbsp;| &nbsp;Blog:www.nowfitness.top</span>
+</div>
+</body>
+</html>
